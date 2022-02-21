@@ -1,0 +1,113 @@
+/* оформлення розташування кнопок переходу між сторінками */
+.search {
+    text-align: right;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+/* оформллення виду кнопок переходу між сторінками */
+.search input[type='submit'] {
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid white;
+    display: inline-block;
+}
+
+/* оформлення ховеру кнопок переходу між сторінками */
+.search input[type='submit']:hover{
+    border: 1px solid black;
+    color: black;
+    background-color: gray;
+}
+
+/* оформлення пошуку */
+.form_input {
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 16px;
+    color: rgb(61, 60, 60);
+    border: 1px solid grey;
+    height: 36px;
+    border-radius: 42px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 40%; 
+}
+
+/* оформлення лого Гугла */
+.image {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+/* вирівнювання кнопок */
+.buttons {
+    text-align: center;
+}
+
+/* оформлення виду кнопок знизу пошуку */
+.buttons input[type='submit'] {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid white;
+    display: inline-block;
+}
+
+/* оформлення ховеру кнопок знизу пошуку */
+.buttons input[type='submit']:hover {
+    border: 1px solid black;
+    color: black;
+    background-color: gray;  
+}
+
+/* розширений пошук титл */
+.title_search {
+    font-family: sans-serif;
+    font-size: 16px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+/* опис поля пошуку */
+.description {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* оформлення поля вводу даних для пошуку */
+.find input[type='text'] {
+    width: 300px;
+    font-size: 16px;
+    text-align: left;
+    border:0.5px solid gray;
+    border-radius: 10px;
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* вирівнювання кнопки пошуку */
+.submited {
+    text-align: right;
+}
+
+.submited input[type='submit'] {
+    font-size: 20px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Meta-тег  viewport  повідомляє браузеру про те, як саме обробляти розміри сторінки, та змінювати її масштаб.  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google search</title>
+    <!-- Підключення стилів -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="search">
+        <a href="img_search.html">
+            <input type="submit" value="Пошук зображень">
+        </a>
+        <a href="ext_search.html">
+            <input type="submit" value="Розширений пошук">
+        </a>
+    </div>
+
+    <img class="image" src="unnamed.gif" alt="Google">
+
+    <form action="https://google.com/search">
+        <input class="form_input" type="text" name="q" placeholder="Шукайте в Google або введіть URL-адресу">
+        <div class="buttons">
+            <input type="submit" value="Google Search">
+            <input name="sourceid" type="hidden" value="navclient">
+            <input name="gfns" type="hidden" value="1">
+            <input type="submit" value="Мені пощастить" name="btnI">
+        </div>
+</body>
+
+</html>
